@@ -7,6 +7,8 @@ def replace_word():
     else:
         replace_with = input( "Enter replacement: ")
         print(content.replace(word_to_find, replace_with))
+        print("")
+        print("DONE")
    
 
 
