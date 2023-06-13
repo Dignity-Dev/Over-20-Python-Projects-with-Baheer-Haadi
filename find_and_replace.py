@@ -4,7 +4,7 @@ def replace_word():
     word_to_find = input("Find What: ")
    
     replace_with = input( "Enter replacement: ")
-    print(str.replace(word_to_find, replace_with))
+    print(content.replace(word_to_find, replace_with))
    
 
 
